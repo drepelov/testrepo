@@ -1,5 +1,5 @@
 FROM registry.access.redhat.com/ubi8/ubi:latest
 
-COPY entrypoint.sh /
+COPY entrypoint-2.sh /
 
 ENTRYPOINT ["/entrypoint-2.sh"]
